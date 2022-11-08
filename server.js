@@ -12,7 +12,7 @@ const app = express()
 const PORT = process.env.PORT || 3001;
 
 
-// middleware
+// middleware here
 app.use(morgan('dev'))
 // //middleware that processes JSON data sent in the AJAX request and adds it to the req.body
 app.use(express.json())
